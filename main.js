@@ -1,9 +1,10 @@
 let age =parseInt(prompt("Enter the Age"));
-if(age<18 && age>0)
+let voterid=confirm("voter id")
+if(age<18 && age>0 && voterid==false)
 {
-    console.log("Not Eligible for Vote");
+    console.log("Not Eligible for Voting");
 }
 else
 {
-    console.log("Eligible for Vote");
+    console.log("Eligible for Voting");
 }
